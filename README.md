@@ -1,7 +1,7 @@
 # Yandex Form
 [![Build Status](https://travis-ci.org/borovin/yandex-form.svg?branch=master)](https://travis-ci.org/borovin/yandex-form)
 
-Тестовое заданеие для школы NodeJS разработки Yandex.Money
+Тестовое задание для школы NodeJS разработки Yandex.Money
 
 Для проверки верстки и валидации достаточно открыть файл index.html
 
