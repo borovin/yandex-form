@@ -1,0 +1,24 @@
+{
+  "name": "yandex-form",
+  "version": "1.0.0",
+  "description": "yandex test form",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "serve",
+    "test": "npm run build && codeceptjs run --steps",
+    "test:debug": "CODECEPTJS_ENV=debug codeceptjs run --steps"
+  },
+  "author": "a@borovin.com",
+  "license": "ISC",
+  "dependencies": {
+    "@basket/block": "^3.1.1",
+    "codeceptjs-nightmare": "^1.1.0",
+    "nightmare": "^2.10.0",
+    "nightmare-upload": "^0.1.1",
+    "rollup": "^0.49.1",
+    "rollup-plugin-commonjs": "^8.2.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "serve": "^6.0.6"
+  }
+}

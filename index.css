@@ -1,0 +1,27 @@
+my-form {
+    width: 400px;
+    margin: 40px auto;
+    display: block;
+}
+
+my-form b-input-text {
+    width: 100%;
+}
+
+#resultContainer {
+    display: inline-block;
+    padding-left: 24px;
+    vertical-align: middle
+}
+
+#resultContainer.success {
+    color: #00C853;
+}
+
+#resultContainer.error {
+    color: #F44336;
+}
+
+#resultContainer.progress {
+    color: #F9A825;
+}
