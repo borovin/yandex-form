@@ -10,6 +10,6 @@ install:
   - npm install
 before_script:
   - npm start &
-  - sleep 100
+  - sleep 4
 script:
   - npm test -s
