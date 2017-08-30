@@ -90,6 +90,7 @@ Scenario('success message', I => {
   I.fillField(page.emailInput, data.email)
   I.fillField(page.phoneInput, data.phone)
   I.click(page.submitButton)
+  I.waitForElement(page.successMessage)
   I.see('Success', page.successMessage)
 })
 
@@ -99,6 +100,7 @@ Scenario('error message', I => {
   I.fillField(page.emailInput, data.email)
   I.fillField(page.phoneInput, data.phone)
   I.click(page.submitButton)
+  I.waitForElement(page.errorMessage)
   I.see('Error message here', page.errorMessage)
 })
 
@@ -108,6 +110,7 @@ Scenario('progress message', I => {
   I.fillField(page.emailInput, data.email)
   I.fillField(page.phoneInput, data.phone)
   I.click(page.submitButton)
+  I.waitForElement(page.progressMessage)
   I.see('Repeat in 3000 ms', page.progressMessage)
 })
 
