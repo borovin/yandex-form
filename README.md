@@ -1,4 +1,5 @@
 # Yandex Form
+[![Build Status](https://travis-ci.org/borovin/yandex-form.svg?branch=master)](https://travis-ci.org/borovin/yandex-form)
 
 Тестовое заданеие для школы NodeJS разработки Yandex.Money
 
